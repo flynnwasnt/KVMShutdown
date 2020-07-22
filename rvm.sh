@@ -50,7 +50,7 @@ do
 	    vm="off"
 	    echo "$activevm has shutdown! Restarting host in 5 seconds."
 	    sleep 5
-	    sudo restart now
+	    sudo reboot now
 	    exit
 	else
 	    vm="on"
