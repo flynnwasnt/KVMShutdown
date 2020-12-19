@@ -1,8 +1,6 @@
 <h1 align="center">KVMShutdown</h1>
 
-A fairly simply script that checks if any VMs are running. If not, it exits. If there are, it waits for them to shutdown and can then shutdown the host or reboot it if desired.
-
-Sudo privledges are required. It's recommened that you run this script in a screen session so if you SSH into your host from the guest the script can run independently of the SSH session (meaning that the script won't exit when SSH is exited)
+<h2 align="center">A script intended for use by GPU passthrough users that makes it easier to shutdown or reboot your host computer after your VM has shutdown.</h2>
 
 ## Prerequisites
 
