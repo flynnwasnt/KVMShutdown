@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-**Sudo privleges are required.** It's recommened that you run this script in a screen session so if you SSH into your host from the guest the script can run independently of the SSH session (meaning that the script won't exit when SSH is exited).
+**Sudo privileges are required.** It's recommened that you run this script in a screen session so if you SSH into your host from the guest the script can run independently of the SSH session (meaning that the script won't exit when SSH is exited).
 
 You can install Screen through your distro's package manager. For example, on Manjaro you can use:
 ```
